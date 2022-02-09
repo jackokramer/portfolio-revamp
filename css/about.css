@@ -27,6 +27,8 @@ body {
 .hero_img {
   margin-left: 2rem;
   align-self: flex-start;
+  border: 2px solid rgb(219, 219, 219);
+  border-radius: 0.25rem;
 }
 .hero p {
   margin-bottom: 3rem;
@@ -84,7 +86,8 @@ body {
   margin-top: 3rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
+  /*Switched from 600px*/
   .container {
     padding: 3rem;
   }

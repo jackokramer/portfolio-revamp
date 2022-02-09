@@ -46,12 +46,13 @@ nav {
 .hamburger {
   display: block;
   position: relative;
+  margin-top: 1rem;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: rgb(61, 61, 61);
+  background: rgb(218, 218, 218);
   width: 2rem;
   height: 5px;
   border-radius: 1rem;
@@ -142,6 +143,8 @@ main {
   background: aliceblue;
   padding: 2rem;
   color: #000;
+  border-radius: 0.25rem;
+  box-shadow: 0 1.5rem 3rem rgba(151, 151, 151, 0.1);
 }
 .me-photo {
   text-align: center;

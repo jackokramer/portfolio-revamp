@@ -116,6 +116,18 @@ p {
   box-shadow: 0 0.25rem 1rem rgb(0 0 0 /0.1);
   padding-left: 0.5rem;
 }
+
+.card-info {
+  text-align: center;
+}
+.more-info,
+.card-info {
+  padding: 0.5rem;
+}
+.link-info {
+  color: rgb(40, 3, 247);
+  font-style: bold;
+}
 .container {
   max-width: 100rem;
   margin-inline: auto;
