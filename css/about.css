@@ -11,6 +11,7 @@ body {
   padding: 100px 2rem;
   background: #23424a;
   color: #fff;
+  border-radius: 0.8rem;
 }
 
 .btn {
@@ -69,8 +70,10 @@ body {
 .about-me-title {
   background: rgb(72, 75, 253);
   padding: 3rem;
-  color: #000;
+  color: aliceblue;
+  font-size: 2.5rem;
   width: 100%;
+  border-radius: 0.8rem;
 }
 
 .send-message {
@@ -93,15 +96,16 @@ body {
   }
   .row {
     display: flex;
+    border-radius: 0.8rem;
+  }
+  .row1 {
+    display: flex;
+    background: slategray;
+    border-radius: 0.8rem;
   }
   img {
     display: block;
   }
-
-  .row {
-    display: flex;
-  }
-
   .hero {
     background: #23424a;
   }

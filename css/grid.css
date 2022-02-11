@@ -106,11 +106,11 @@ p {
 .card__title {
   font-size: 1.25rem;
   line-height: 1.1;
-  color: crimson;
+  color: orange;
   text-align: center;
 }
 .card-content {
-  background: aliceblue;
+  background: teal;
   align-self: end;
   margin: 0.5rem 0.5rem 0.25rem;
   box-shadow: 0 0.25rem 1rem rgb(0 0 0 /0.1);
@@ -123,11 +123,18 @@ p {
 .more-info,
 .card-info {
   padding: 0.5rem;
+  color: aliceblue;
 }
 .link-info {
-  color: rgb(40, 3, 247);
+  color: beige;
   font-style: bold;
 }
+
+.link-info:hover {
+  color: orange;
+  font-style: bold;
+}
+
 .container {
   max-width: 100rem;
   margin-inline: auto;

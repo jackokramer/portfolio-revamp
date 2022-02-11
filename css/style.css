@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Be Vietnam Pro", sans-serif;
   font-family: "Mochiy Pop P One", sans-serif;
   max-width: 1110px;
@@ -163,12 +163,22 @@ main {
 }
 .seondary-title {
   text-align: center;
+  color: orange;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.seondary-title-third {
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  font-size: 2.1em;
 }
 .col {
   padding: 2rem;
-  background-color: teal;
+  background: teal;
   margin-top: 1rem;
   margin-left: 1rem;
+  border-radius: 0.8rem;
 }
 
 .clients {
@@ -219,6 +229,15 @@ footer {
   background-image: url(../imgs/leaves-julia-matuzova.jpg);
   background-size: cover;
   background-blend-mode: multiply;
+}
+
+.font-awesome {
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* end about-me */
