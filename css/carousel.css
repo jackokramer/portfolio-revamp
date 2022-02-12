@@ -90,3 +90,59 @@ body {
     opacity: 1;
   }
 }
+
+@media (min-width: 768px) {
+  .hero {
+    display: flex;
+    background: teal;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  .text {
+    width: 60%;
+  }
+  /* .second-section {
+    background: #000;
+    padding: 2rem;
+  }
+  .row {
+    display: flex;
+  }
+  .first {
+    padding: 1rem;
+  }
+  .second {
+    padding: 1rem;
+  }
+  */
+  .secondarys {
+    padding: 2rem;
+    background-image: url(../imgs/blue-wave-lengths.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #16e0bd;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .col-first {
+    padding: 1rem;
+    background: slategray;
+    max-height: 35vh;
+    border-radius: 0.5rem;
+  }
+
+  .col-second {
+    padding: 1.5rem;
+    background: rgb(145, 145, 145);
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    width: 60%;
+  }
+
+  .col-second-h2 {
+    text-align: center;
+  }
+}
