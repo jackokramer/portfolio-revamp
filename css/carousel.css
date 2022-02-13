@@ -63,8 +63,8 @@ body {
 }
 
 #prev-slide {
-  background: aliceblue;
-  color: #000;
+  background: teal;
+  color: aliceblue;
   text-decoration: none;
   border-radius: 50px;
   border: none;
@@ -75,8 +75,8 @@ body {
 }
 
 #next-slide {
-  background: aliceblue;
-  color: #000;
+  background: teal;
+  color: aliceblue;
   text-decoration: none;
   border-radius: 50px;
   border: none;
