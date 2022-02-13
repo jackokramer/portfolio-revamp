@@ -84,6 +84,13 @@ p {
 }
 /* classes */
 
+.title-info {
+  padding: 2rem;
+  background: rgb(7, 192, 192);
+  border-radius: 0.5rem;
+  color: rgb(57, 64, 71);
+}
+
 .card {
   border: 3px solid aliceblue;
   aspect-ratio: 1/1.5;

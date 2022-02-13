@@ -8,6 +8,18 @@ body {
 }
 
 /* classes */
+.title-info {
+  padding: 2rem;
+  background: rgb(7, 192, 192);
+  border-radius: 0.5rem;
+  color: rgb(57, 64, 71);
+}
+
+.hero {
+  background: teal;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
 
 .carousel {
   max-width: 600px;
@@ -80,6 +92,31 @@ body {
   color: #fff;
 }
 
+.secondarys {
+  padding: 2rem;
+  background-image: url(../imgs/blue-wave-lengths.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #16e0bd;
+  border-radius: 0.5rem;
+}
+
+.col-second {
+  padding: 1.5rem;
+  background: rgb(145, 145, 145);
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.col-first {
+  padding: 1.5rem;
+  background: slategray;
+  max-height: 40vh;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 @keyframes slidetransition {
   0% {
     /* transform: translateX(0%); */
@@ -94,9 +131,6 @@ body {
 @media (min-width: 768px) {
   .hero {
     display: flex;
-    background: teal;
-    padding: 2rem;
-    border-radius: 0.5rem;
   }
   .text {
     width: 60%;
@@ -135,10 +169,6 @@ body {
   }
 
   .col-second {
-    padding: 1.5rem;
-    background: rgb(145, 145, 145);
-    border-radius: 0.5rem;
-    margin-left: 0.5rem;
     width: 60%;
   }
 
